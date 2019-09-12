@@ -163,6 +163,6 @@ var CSSJSON = new function() {
     };
 }();
 
-if (typeof module === "object") {
-    module.exports = CSSJSON;
-}
+exports.fromString = function(str) {
+    return CSSJSON.toJSON(str);
+};
