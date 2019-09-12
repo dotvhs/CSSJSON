@@ -164,5 +164,5 @@ var CSSJSON = new function() {
 }();
 
 exports.fromString = function(str) {
-    return CSSJSON.toJSON(str);
+    return JSON.stringify(CSSJSON.toJSON(str), undefined, 2);
 };
