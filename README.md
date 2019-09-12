@@ -1,3 +1,10 @@
+## This is edited version of CSSJSON
+
+It outputs just clean CSS without `children: {}` and `arguments: {}`. It was created for internal use.
+
+Below there's original Readme for it.
+
+
 # CSS-JSON Converter for JavaScript
 
 CSS-JSON Converter for JavaScript  
